@@ -1,13 +1,13 @@
 # Sorting and Searching Algorithms in Python
 
-This repository contains a collection of sorting and searching algorithms implemented in Python, created by '_'ARAUJO José'_'. The purpose of this repository is to provide a reference for common algorithms used in computer science and to help developers improve their problem-solving skills.
+This repository contains a collection of sorting and searching algorithms implemented in __Python__, created by *__ARAUJO José__*. The purpose of this repository is to provide a reference for common algorithms used in computer science and to help developers improve their problem-solving skills.
 
 ### Table of Contents
-(`*`) Sorting Algorithms
-(`*`) Searching Algorithms
-(`*`) Usage
-(`*`) License
-(`*`) Contributing
+ - Sorting Algorithms
+ - Searching Algorithms
+ - Usage
+ - License
+ - Contributing
 
 ### Sorting Algorithms
 This repository includes various sorting algorithms, such as bubble sort, merge sort, and quick sort. Each sorting algorithm is implemented in Python and includes detailed comments and explanations for better understanding.
