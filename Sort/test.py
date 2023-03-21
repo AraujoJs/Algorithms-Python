@@ -1,5 +1,6 @@
 import random
 from sorting import selection_sort
+from sorting import bubble_sort
 
 
 def test(sort, list):
@@ -24,7 +25,13 @@ repeated = [7, 7, 7, 7, 7, 1, 1, 1, 9, 9, 9, 9, 0, 4, 4 ,4 ,4, 5, 4, 7, 1]
 
 if __name__ == '__main__':
     # SELECTION SORT
-    test(selection_sort, any_numbers)
-    test(selection_sort, already_sorted)
-    test(selection_sort, inversed)
-    test(selection_sort, repeated)
+#    test(selection_sort, any_numbers)
+#    test(selection_sort, already_sorted)
+#    test(selection_sort, inversed)
+#    test(selection_sort, repeated)
+
+    # BUBBLE SORT
+    test(bubble_sort, any_numbers)
+    test(bubble_sort, already_sorted)
+    test(bubble_sort, inversed)
+    test(bubble_sort, repeated)
