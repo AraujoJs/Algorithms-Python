@@ -2,6 +2,7 @@ import random
 from sorting import selection_sort
 from sorting import bubble_sort
 from sorting import quick_sort
+from sorting import insertion_sort
 
 def test(sort, list):
     print("-=- MESSED UP -=-")
@@ -37,7 +38,13 @@ if __name__ == '__main__':
 #    test(bubble_sort, repeated)
 
     # QUICK SORT
-    test(quick_sort, any_numbers)
-    test(quick_sort, already_sorted)
-    test(quick_sort, inversed)
-    test(quick_sort, repeated)
+#    test(quick_sort, any_numbers)
+#    test(quick_sort, already_sorted)
+#    test(quick_sort, inversed)
+#    test(quick_sort, repeated)
+
+    # INSERTION SORT
+    test(insertion_sort, any_numbers)
+    test(insertion_sort, already_sorted)
+    test(insertion_sort, inversed)
+    test(insertion_sort, repeated)
